@@ -29,7 +29,7 @@ Save your time to spend it more for the creativity.
     ```
 1. Install [pyenv](https://github.com/pyenv/pyenv) and [pyenv-vitualenv](https://github.com/pyenv/pyenv-virtualenv)
 
-    ```sh
+    ```bash
     brew install pyenv pyenv-virtualenv
     ```
     
@@ -79,6 +79,8 @@ Save your time to spend it more for the creativity.
         ```
         
 1. Now you are in the created virtual environtment, feel free to work or install additional pacakges.
+
+1. You may switch to any available virtual environment by the above command.
         
 1. To uninstall the created virtual environtment:
     * Switch to an available virtual environment, e.g.,
