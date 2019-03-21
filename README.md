@@ -5,13 +5,13 @@ This guide summarizes the best practice and practical working progress for Pytho
 Save your time to spend it more for the creativity.
 
 ## Installation
-1. Xcode Command Line Tools
+1. Install Xcode Command Line Tools
 
     ```sh
     xcode-select --install
     ```
 
-1. Homebrew (https://brew.sh)
+1. Install Homebrew (https://brew.sh)
 
     ```sh
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -32,3 +32,62 @@ Save your time to spend it more for the creativity.
     ```sh
     brew install pyenv pyenv-virtualenv
     ```
+    
+1. Install Python via pyenv:
+    * List available Python versions:
+    
+        ```sh
+        pyenv install --list
+        ```
+        
+    * Install the selected version <x.x.x>:
+    
+        ```sh
+        pyenv install <x.x.x>
+        ```
+        
+    * To enable `--framework-enable` option (package like `matplotlib` need this), use the following command instead:
+    
+        ```sh
+        env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install <x.x.x>
+        ```
+        
+1. Append these lines to your profile (`~/.bash_profile`, `~/.zshrc` or `~/.profile`):
+
+        ```sh
+        eval "$(pyenv init -)"
+        eval "$(pyenv virtualenv-init -)"
+        ```
+        
+## Usgae
+
+1. To start a new project with an independent virtual environment:
+
+        ```sh
+        pyenv virtualenv <installed-pyenv-python-version> <prefered-environtment-name>
+        ```
+   When the enabled framework option required, use this instead:
+   
+        ```sh
+        env PYTHON_CONFIGURE_OPTS="--enable-framework CC=clang" pyenv virtualenv <installed-pyenv-python-version> <prefered-environtment-name>
+        ```
+        
+1. To select the created virtual environtment locally/globally:
+
+        ```sh
+        pyenv <local/global> <created-environtment-name>
+        ```
+        
+1. Now you are in the created virtual environtment, feel free to work or install additional pacakges.
+        
+1. To uninstall the created virtual environtment:
+    * Switch to an available virtual environment, e.g.,
+    
+            ```sh
+            pyenv <local/global> system
+            ```
+    * Remove the environment:
+    
+            ```sh
+            pyenv uninstall <created-environtment-name>
+            ```
