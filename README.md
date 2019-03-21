@@ -33,7 +33,7 @@ Save your time to spend it more for the creativity.
     brew install pyenv pyenv-virtualenv
     ```
     
-1. Install Python via pyenv:
+1. Install Python via `pyenv`:
     * List available Python versions:
     
         ```bash
@@ -58,6 +58,7 @@ Save your time to spend it more for the creativity.
         eval "$(pyenv init -)"
         eval "$(pyenv virtualenv-init -)"
         ```
+        
         
 ## Usgae
 
