@@ -54,7 +54,7 @@ Save your time to spend it more for the creativity.
         
 1. Append these lines to your profile (`~/.bash_profile`, `~/.zshrc` or `~/.profile`):
 
-        ```bash
+        ```
         eval "$(pyenv init -)"
         eval "$(pyenv virtualenv-init -)"
         ```
@@ -63,18 +63,18 @@ Save your time to spend it more for the creativity.
 
 1. To start a new project with an independent virtual environment:
 
-        ```bash
+        ```
         pyenv virtualenv <installed-pyenv-python-version> <prefered-environtment-name>
         ```
    When the enabled framework option required, use this instead:
    
-        ```bash
+        ```
         env PYTHON_CONFIGURE_OPTS="--enable-framework CC=clang" pyenv virtualenv <installed-pyenv-python-version> <prefered-environtment-name>
         ```
         
 1. To select the created virtual environtment locally/globally:
 
-        ```bash
+        ```
         pyenv <local/global> <created-environtment-name>
         ```
         
@@ -85,11 +85,11 @@ Save your time to spend it more for the creativity.
 1. To uninstall the created virtual environtment:
     * Switch to an available virtual environment, e.g.,
     
-            ```bash
+            ```
             pyenv <local/global> system
             ```
     * Remove the environment:
     
-            ```bash
+            ```
             pyenv uninstall <created-environtment-name>
             ```
