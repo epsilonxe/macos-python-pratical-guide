@@ -67,6 +67,7 @@ Save your time to spend it more for the creativity.
         ```
         pyenv virtualenv <installed-pyenv-python-version> <prefered-environtment-name>
         ```
+        
    When the enabled framework option required, use this instead:
    
         ```
@@ -83,14 +84,15 @@ Save your time to spend it more for the creativity.
 
 1. You may switch to any available virtual environment by the above command.
         
-1. To uninstall the created virtual environtment:
-    * Switch to an available virtual environment, e.g.,
+1. To remove an unwanted virtual environtment:
+    * Switch to another available virtual environment, e.g.,
     
             ```
             pyenv <local/global> system
             ```
-    * Remove the environment:
+            
+    * Remove the unwanted environment:
     
             ```
-            pyenv uninstall <created-environtment-name>
+            pyenv uninstall <unwanted-environtment-name>
             ```
