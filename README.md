@@ -6,13 +6,11 @@ Save your time to spend it more for the creativity.
 
 ## Installation
 1. Install Xcode Command Line Tools
-
     ```bash
     xcode-select --install
     ```
 
 1. Install Homebrew (https://brew.sh)
-
     ```bash
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ``` 
