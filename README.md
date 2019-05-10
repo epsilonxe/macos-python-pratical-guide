@@ -54,7 +54,7 @@ Save your time to spend it more for the creativity.
 
 1. To start a new project with an independent virtual environment:
         ```
-        pyenv virtualenv <installed-pyenv-python-version> <prefered-environtment-name>
+         pyenv virtualenv <installed-pyenv-python-version> <prefered-environtment-name>
         ```
         
    When the enabled framework option required, use this instead:
