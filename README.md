@@ -44,12 +44,11 @@ Save your time to spend it more for the creativity.
         env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install <x.x.x>
         ```
         
-1. Append these lines to your profile (`~/.bash_profile`, `~/.zshrc` or `~/.profile`)
-
-        ```
-        eval "$(pyenv init -)"
-        eval "$(pyenv virtualenv-init -)"
-        ```
+1. Append these lines to your profile (`~/.bash_profile`, `~/.zshrc` or `~/.profile`):
+    ```
+     eval "$(pyenv init -)"
+     eval "$(pyenv virtualenv-init -)"
+    ```
         
 ## Usgae
 
