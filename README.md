@@ -19,10 +19,16 @@ Save your time to spend it more for the creativity.
     $ brew install openssl readline sqlite3 xz zlib
     ```
     
-1. When running Mojave or higher (10.14+), install the additional SDK headers:
+1. When running Mojave (10.14), install the additional SDK headers:
     ```bash
     $ sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
     ```
+    
+1. If you have Catalina (10.15), set the CPATH environment variable in your shell (e.g., put this in your .zshrc assuming you're using zsh):
+    ```bash
+    $ export CPATH=`xcrun --show-sdk-path`/usr/include
+    ```
+
 1. Install [pyenv](https://github.com/pyenv/pyenv) and [pyenv-vitualenv](https://github.com/pyenv/pyenv-virtualenv)
     ```bash
     $ brew install pyenv pyenv-virtualenv
