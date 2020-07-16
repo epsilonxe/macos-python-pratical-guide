@@ -67,7 +67,8 @@ Follow the instructions for your OS:
 
 ## Python Installation
 
-Install Python via `pyenv`:
+ 1. Install Python via `pyenv`:
+    
     * List available Python versions:
         ```bash
         $ pyenv install --list
