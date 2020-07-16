@@ -1,5 +1,5 @@
 # Python Practical Guide
-A route to start a Python project
+A pythonista route to start a Python project
 
 This guide summarizes the best practice and practical working progress for Python projects.
 Save your time for spending it later for the creativity.
