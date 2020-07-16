@@ -73,9 +73,9 @@ Follow the instructions for your OS:
         $ pyenv install --list
         ```
         
-    * Install the selected version <x.x.x>:
+    * Install the selected version x.x.x :
         ```bash
-        $ pyenv install <x.x.x>
+        $ pyenv install x.x.x
         ```
         
     * To enable `--framework-enable` option (package like `matplotlib` need this), use the following command instead:
