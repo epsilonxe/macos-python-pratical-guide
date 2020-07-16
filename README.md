@@ -58,6 +58,12 @@ Follow the instructions for your OS:
     ```bash
     $ brew install pyenv pyenv-virtualenv
     ```
+    
+1. Append these lines to your profile (`~/.bash_profile`, `~/.zshrc` or `~/.profile`):
+    ```
+     eval "$(pyenv init -)"
+     eval "$(pyenv virtualenv-init -)"
+    ```
 
 ## Python Installation
 
@@ -77,11 +83,8 @@ Follow the instructions for your OS:
         $ env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install <x.x.x>
         ```
         
-1. Append these lines to your profile (`~/.bash_profile`, `~/.zshrc` or `~/.profile`):
-    ```
-     eval "$(pyenv init -)"
-     eval "$(pyenv virtualenv-init -)"
-    ```
+
+
         
 ## Start a Python project
 
