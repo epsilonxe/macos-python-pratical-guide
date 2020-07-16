@@ -1,10 +1,34 @@
-# macOS Python Pratical Guide
-A route to start the Python project in macOS
+# Python Practical Guide
+A route to start the Python project
 
 This guide summarizes the best practice and practical working progress for Python projects.
 Save your time to spend it more for the creativity.
 
-## Installation
+## Basic Tools
+
+Follow the instructions for your OS:
+
+### Windows
+
+1. Open PowerShell (Admin):
+    ```
+    [WinKey] + x
+    ```
+
+1. Install Chocolatey (https://chocolatey.org/install),
+    ```bash
+    $ Set-ExecutionPolicy AllSigned
+    $ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    ```
+    
+1. Install [pyenv-win]
+    ```bash
+    $ choco install pyenv-win
+    ```
+
+
+### macOS
+
 1. Install Xcode Command Line Tools
     ```bash
     $ xcode-select --install
@@ -17,6 +41,7 @@ Save your time to spend it more for the creativity.
 1. Optional, but recommended:
     ```bash
     $ brew install openssl readline sqlite3 xz zlib
+    $ brew cask install sublime-text
     ```
     
 1. When running Mojave (10.14), install the additional SDK headers:
@@ -33,6 +58,8 @@ Save your time to spend it more for the creativity.
     ```bash
     $ brew install pyenv pyenv-virtualenv
     ```
+
+## Python Installation
 
 1. Install Python via `pyenv`:
     * List available Python versions:
@@ -56,7 +83,7 @@ Save your time to spend it more for the creativity.
      eval "$(pyenv virtualenv-init -)"
     ```
         
-## Usgae
+## Start a Python project
 
 1. To start a new project with an independent virtual environment:
 
