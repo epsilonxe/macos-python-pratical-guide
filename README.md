@@ -44,7 +44,7 @@ Follow the instructions for your OS:
     $ brew cask install sublime-text
     ```
     
-1. When running Mojave (10.14), install the additional SDK headers:
+1. When running Mojave (10.14), additionally install the SDK headers:
     ```bash
     $ sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
     ```
@@ -67,7 +67,7 @@ Follow the instructions for your OS:
 
 ## Python Installation
 
-1. Install Python via `pyenv`:
+Install Python via `pyenv`:
     * List available Python versions:
         ```bash
         $ pyenv install --list
@@ -78,7 +78,7 @@ Follow the instructions for your OS:
         $ pyenv install x.x.x
         ```
         
-    * To enable `--framework-enable` option (package like `matplotlib` need this), use the following command instead:
+    * To enable `--framework-enable` option (package like `matplotlib` needs this), use the following command instead:
         ```bash
         $ env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install <x.x.x>
         ```
