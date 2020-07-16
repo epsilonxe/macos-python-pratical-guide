@@ -2,7 +2,7 @@
 A route to start a Python project
 
 This guide summarizes the best practice and practical working progress for Python projects.
-Save your time to spend it more for the creativity.
+Save your time for spending it later for the creativity.
 
 ## Basic Tools
 
