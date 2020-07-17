@@ -1,4 +1,4 @@
-# Ultimate Basic Python Project
+# Ultimate Basic Python Course
 Department of Mathematics and Computer Science
 Rajamangala University of Technology Thanyaburi
 
