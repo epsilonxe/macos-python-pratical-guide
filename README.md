@@ -70,7 +70,7 @@ Follow the instructions for your OS:
      eval "$(pyenv virtualenv-init -)"
     ```
 
-## Python Installation
+## Usage of `pyenv`
 
  1. Install Python via `pyenv`:
     
@@ -84,15 +84,10 @@ Follow the instructions for your OS:
         $ pyenv install x.x.x
         ```
         
-    * To enable `--framework-enable` option (package like `matplotlib` needs this), use the following command instead:
+    * For `macOS`, to enable `--framework-enable` option (package like `matplotlib` needs this), use the following command instead:
         ```bash
         $ env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install <x.x.x>
         ```
-        
-
-
-        
-## Start a Python project
 
 1. To start a new project with an independent virtual environment:
 
