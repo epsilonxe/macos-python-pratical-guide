@@ -1,4 +1,6 @@
-# Python Practical Guide
+## Ultimate Basic Python Project
+
+## Python Practical Guide
 A pythonista route to start a Python project
 
 This guide summarizes the best practice and practical working progress for Python projects.
