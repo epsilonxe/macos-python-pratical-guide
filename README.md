@@ -1,4 +1,7 @@
 # Ultimate Basic Python Project
+Department of Mathematics and Computer Science
+Rajamangala University of Technology Thanyaburi
+
 
 ## Python Practical Guide
 A pythonista route to start a Python project
