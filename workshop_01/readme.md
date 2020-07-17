@@ -1,4 +1,4 @@
-#Workshop 01
+# Workshop 01
 
 จงเขียนโปรแกรมคำนวนพื้นที่สามเหลี่ยม โดยคำนวณจากสูตร
 
@@ -6,7 +6,7 @@
 พื้นที่ = 0.5 * ความยาวฐาน * ความสูง
 ```
 
-##Example
+## Example
 ```
 Traiangle Area Calculator
 Enter your base length: 78
