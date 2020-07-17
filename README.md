@@ -1,4 +1,4 @@
-## Ultimate Basic Python Project
+# Ultimate Basic Python Project
 
 ## Python Practical Guide
 A pythonista route to start a Python project
