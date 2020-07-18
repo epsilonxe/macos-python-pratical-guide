@@ -1,15 +1,17 @@
 # Workshop 01
 
-จงเขียนโปรแกรมคำนวนพื้นที่สามเหลี่ยม โดยคำนวณจากสูตร
+จงเขียนโปรแกรมคำนวนพื้นที่วงกลม และ เส้นรอบวง
+เมื่อทราบความยาวรัศมี (หน่วยเป็น cm) โดยคำนวณจากสูตร
 
 ```
-พื้นที่ = 0.5 * ความยาวฐาน * ความสูง
+พื้นที่ = pi * รัศมี^2 
+เส้นรอบวง = 2 * pi * รัศมี 
 ```
 
 ## Example
 ```
-Traiangle Area Calculator
-Enter your base length: 78
-Enter your height: 20
-Area is 780 unit^2
+Traiangle Calculator
+Enter the radius: 5
+Area is 78.5 cm^2
+Circumference is 31.4 cm^2
 ```
