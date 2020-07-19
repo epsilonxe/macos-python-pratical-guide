@@ -11,7 +11,6 @@
 ```
 x^2 + y^2 = 25
 ```
-<img src="https://render.githubusercontent.com/render/math?math=x^2 + y^2 = 25">
 
 ## Example
 ```
