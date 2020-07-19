@@ -22,13 +22,16 @@ print(x != y)
 condition_1 = x > y
 condition_2 = x < y
 
-print(f"condition_1 is {condition_1}")
-print(f"condition_2 is {condition_2}")
+print(condition_1)
+
+print(condition_1)
+
+
 
 new_condition = condition_1 and condition_2
-print(f"new_condition is {new_condition}")
+print(new_condition)
 
 
 new_condition = condition_1 or condition_2
-print(f"new_condition is {new_condition}")
+print(new_condition)
 

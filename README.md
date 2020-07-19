@@ -34,7 +34,7 @@ Follow the instructions for your OS:
 
 ### macOS
 
-1. Install Xcode Command Line Tools
+1. Optional, but recommended: install Xcode Command Line Tools
     ```bash
     $ xcode-select --install
     ```
@@ -85,6 +85,11 @@ Follow the instructions for your OS:
     * Install the selected version x.x.x :
         ```bash
         $ pyenv install x.x.x
+        ```
+
+    * After installtion or uninstallation of python in pyenv, run
+        ```bash
+        $ pyenv rehash
         ```
         
     * For `macOS`, to enable `--framework-enable` option (package like `matplotlib` needs this), use the following command instead:
