@@ -1,4 +1,4 @@
-my_number = 5
+my_number = 3
 correct = 0
 
 print("Try to guess my number (0 - 9)")
