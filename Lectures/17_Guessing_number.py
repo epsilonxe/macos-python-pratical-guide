@@ -7,7 +7,7 @@ while correct == 0:
 	x = int(input("Guess my number: "))
 	if x == my_number:
 		print(f"Yes, my number is {my_number}")
-		correct = 999
+		correct = 1
 	else:
 		print("No, it's not")
 		print("Try it again")
