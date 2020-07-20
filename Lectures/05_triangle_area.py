@@ -7,4 +7,5 @@ print("Triangle height is ", height)
 
 area = 0.5 * base * height
 
-print("Area of this triagle is ", area)
+print(f"Area of this triagle is {area} = 0.5 * {base} * {height}")
+

@@ -1,6 +1,6 @@
 print("Triangle Area Calculator")
-base = input("Enter the base of triangle: ")
-height = input("Enter the height of triangle: ")
+base = float(input("Enter the base of triangle: "))
+height = float(input("Enter the height of triangle: "))
 
 area = 0.5 * base * height
 

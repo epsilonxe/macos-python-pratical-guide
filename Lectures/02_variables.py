@@ -11,3 +11,9 @@ print(newVariable)
 my_country = "Thailand"
 print("My country is")
 print(my_country) 
+
+text = x * my_country
+print(text)
+
+text2 = my_country * x
+print(text2)
