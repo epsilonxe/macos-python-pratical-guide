@@ -1,13 +1,12 @@
+def c2f(c):
+	print("c2f")
+def f2c(f):
+	print("f2c")
+
 def tempConvert(temp, mode):
-
-	if mode == "c->f":
-		output_temp = (temp / 5) * 9 + 32
-	elif mode == "f->c":
-		output_temp = ((temp - 32) / 9) *5
-	else:
-		output_temp = NaN
-
-	return output_temp
+	myfuncs = {'c->f': c2f(temp), 'f->c': f2c(temp)}
+	return myfuncs.get(mode, None)
+	
 
 
 print("Temperature Converter")

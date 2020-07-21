@@ -1,5 +1,5 @@
-def greeting(username):
-	print(f"Hello {username}")
+def greeting(username, lastname="Hello"):
+	print(f"Hello {username} {lastname}")
 	print("Nice to see you here")
 
 def deny(username):
@@ -13,6 +13,6 @@ print("Login System")
 login = input("Enter your name: ")
 
 if login == boss:
-	greeting(login)
+	greeting(boss, "Tum")
 else:
 	deny(login)

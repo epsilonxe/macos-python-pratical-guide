@@ -1,25 +1,25 @@
 my_list = [34.0, 43.5, 100.3, 45.6, 3.16, 0.28, 45.45, 3.2, 66.4]
 
-line = 20 * "-"
+# line = 20 * "-"
 
-print(f"This will show members of {my_list}")
+# print(f"This will show members of {my_list}")
 
-for k in range(0, 4):
-	print(f"Member number {k} is {my_list[k]}")
+# for k in range(0, 4):
+# 	print(f"Member number {k} is {my_list[k]}")
 
-print(line)
+# print(line)
 
-for k in range(1, 8, 2):
-	print(f"Member number {k} is {my_list[k]}")
+# for k in range(1, 8, 2):
+# 	print(f"Member number {k} is {my_list[k]}")
 
-print(line)
+# print(line)
 
-print("Here is Python-Exclusive")
+# print("Here is Python-Exclusive")
 
-for k in my_list:
-	print(k)
+# for k in my_list:
+# 	print(k)
 
-print(line)
+# print(line)
 
 # Example of usage
 # Finding Summation

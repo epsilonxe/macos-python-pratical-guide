@@ -8,16 +8,21 @@ def tempConvert(temp, mode):
 		output_temp = None
 
 	return output_temp
-
+'''
 print("Temperature Converter")
 t = float(input("Enter a temperature: "))
 m = input("Conversion mode: ")
 output = tempConvert(t, m)
 print(f"Output is {output}")
-
-# if __name__ == "__main__":
-# 	print("Temperature Converter")
-# 	t = float(input("Enter a temperature: "))
-# 	m = input("Conversion mode: ")
-# 	output = tempConvert(t, m)
-# 	print(f"Output is {output}")
+'''
+#print(__name__)
+def main():
+	print("Temperature Converter")
+ 	t = float(input("Enter a temperature: "))
+ 	m = input("Conversion mode: ")
+ 	output = tempConvert(t, m)
+ 	print(f"Output is {output}")
+ 	
+if __name__ == "__main__":
+	main()
+ 	

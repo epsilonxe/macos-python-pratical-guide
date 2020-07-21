@@ -22,12 +22,12 @@ def fact_str(n):
 	text = "x".join(temp)
 	return text
 
-print("Factorial Calculator")
-n = input("Enter an integer:")
+# print("Factorial Calculator")
+# n = input("Enter an integer:")
 
-#r = fact(int(n))
-r = fact_recur(int(n))
+# #r = fact(int(n))
+# r = fact_recur(int(n))
 
-text = fact_str(int(n))
+# text = fact_str(int(n))
 
-print(f"{n}! = {text} = {r}")
+# print(f"{n}! = {text} = {r}")

@@ -1,5 +1,6 @@
 import math
 from math import sqrt
+#from math2 import sqrt as m2sqrt
 
 print(f"Pi = {math.pi}")
 print(f"Pi = {math.pi:.30f}")
