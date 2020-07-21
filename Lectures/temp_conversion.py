@@ -9,7 +9,6 @@ def tempConvert(temp, mode):
 
 	return output_temp
 
-
 print("Temperature Converter")
 t = float(input("Enter a temperature: "))
 m = input("Conversion mode: ")
