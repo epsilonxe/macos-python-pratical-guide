@@ -16,5 +16,8 @@ elif username == assistant:
 	print(f"Hello Assistant {username}")
 	print("Welcome to the system")
 else:
-	print(f"You are {username}")
+	print(f"You are {username}, we are people")
 	print("Denied Login")
+
+
+
