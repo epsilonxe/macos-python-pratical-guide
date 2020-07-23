@@ -1,5 +1,5 @@
 # Ultimate Basic Python Course
-Department of Mathematics and Computer Science
+Department of Mathematics and Computer Science,
 Rajamangala University of Technology Thanyaburi
 
 
@@ -92,10 +92,37 @@ Follow the instructions for your OS:
         $ pyenv rehash
         ```
         
-    * For `macOS`, to enable `--framework-enable` option (package like `matplotlib` needs this), use the following command instead:
+    * For `macOS`, in order to use modules like `matplotlib`, install Python with the following command instead:
         ```bash
         $ env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install <x.x.x>
         ```
+
+    * For `macOS`, to use `tkinter`, install `tcl-tk` via Homebrew and pay attention to its current version,
+
+    	```bash
+    	$ brew install tck-tk
+    	```
+    	this may give some information like:
+    	```
+    	...
+    	...
+    	Pouring tcl-tk-8.6.10.catalina.bottle.1.tar.gz
+    	....
+    	```
+    	which is version 8.6.10. To install python use the following command instead:
+
+    	```bash
+    	$ env \
+  		PATH="$(brew --prefix tcl-tk)/bin:$PATH" \
+  		LDFLAGS="-L$(brew --prefix tcl-tk)/lib" \
+  		CPPFLAGS="-I$(brew --prefix tcl-tk)/include" \
+  		PKG_CONFIG_PATH="$(brew --prefix tcl-tk)/lib/pkgconfig" \
+  		CFLAGS="-I$(brew --prefix tcl-tk)/include" \
+  		PYTHON_CONFIGURE_OPTS="--with-tcltk-includes='-I$(brew --prefix tcl-tk)/include' --with-tcltk-libs='-L$(brew --prefix tcl-tk)/lib -ltcl8.6 -ltk8.6'" \
+  		pyenv install x.x.x
+    	```
+
+
 
 1. To start a new project with an independent virtual environment:
 
