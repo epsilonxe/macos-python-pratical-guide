@@ -12,11 +12,11 @@ my_list = [1, 2, 3, 4, 5]
 
 # Example of usage
 # Finding Summation
-sum = 0
-k = 0
-n = len(my_list)
-while k < n:
-	sum = sum + my_list[k]
-	k = k + 1
+# sum = 0
+# k = 0
+# n = len(my_list)
+# while k < n:
+# 	sum = sum + my_list[k]
+# 	k = k + 1
 
-print(f"Summation of members in {my_list} is {sum}")
+# print(f"Summation of members in {my_list} is {sum}")

@@ -23,7 +23,7 @@ my_list = [34.0, 43.5, 100.3, 45.6, 3.16, 0.28, 45.45, 3.2, 66.4]
 
 # Example of usage
 # Finding Summation
-sum = 0
-for k in my_list:
-	sum = sum + k
-print(f"Summation of members in {my_list} is {sum}")
+# sum = 0
+# for k in my_list:
+# 	sum = sum + k
+# print(f"Summation of members in {my_list} is {sum}")

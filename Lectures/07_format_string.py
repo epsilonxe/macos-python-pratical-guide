@@ -11,4 +11,4 @@ print(f"z = x / y = {z:.3f}")
 
 print(f"z = {x} / {y} = {z:.3f}")
 
-print(f"z = {x} / {y} = {z:.90f}")
+print(f"z = {x} / {y} = {z:.40f}")

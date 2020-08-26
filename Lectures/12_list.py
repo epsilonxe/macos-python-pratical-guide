@@ -3,29 +3,29 @@
 # print("The complete list is ")
 # print(number_list)
 
-# print("Here are the members")
-# print(number_list[0])
-# print(number_list[1])
-# print(number_list[2])
-# print(number_list[3])
+# # print("Here are the members")
+# # print(number_list[0])
+# # print(number_list[1])
+# # print(number_list[2])
+# # print(number_list[3])
 
-# print(f"The last member is {number_list[-1]}")
+# # print(f"The last member is {number_list[-1]}")
 
-# print(f"Before the last member is {number_list[-2]}")
+# # print(f"Before the last member is {number_list[-2]}")
 
-# print(f"The first member is {number_list[-4]}")
+# # print(f"The first member is {number_list[-4]}")
 
 
-# # Change member data
+# # # Change member data
 # number_list[2] = 5555.55
 # print(f"Now the entire list is {number_list}")
 
 
-# # Number of members
+# # # Number of members
 # n = len(number_list)
 # print(f"Number of members is {n}")
 
-# # Add member
+# # # Add member
 # new_member = 1024
 # number_list.append(new_member)
 # print(f"Now the entire list is {number_list}")
@@ -38,12 +38,12 @@
 # number_list.append(new_member)
 # print(f"Now the entire list is {number_list}")
 
-# # Delete member
+# # # Delete member
 # number_list.pop(1)
 # print(f"Now the entire list is {number_list}")
 
 
-# # Sublist
+# # # Sublist
 # new_list = number_list[1:4] 
 # print(f"The new_list is {new_list}")
 
@@ -62,7 +62,7 @@ print(f"d is {d}")
 e = a * 3
 print(f"e is {e}")
 
-# Empty list
+# # Empty list
 x = []
 print(len(x))
 

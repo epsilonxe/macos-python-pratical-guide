@@ -3,22 +3,22 @@ y = 7
 
 
 # Check: x > y
-is_x_greater_than_y = x > y
-print(is_x_greater_than_y)
+# is_x_greater_than_y = x > y
+# print(is_x_greater_than_y)
 
 # Comparison
 
 # Equality
-print(x == y)
+# print(x == y)
 
-# Inequality
-print(x > y)
-print(x >= y)
-print(x < y)
-print(x <= y)
-print(x != y)
+# # Inequality
+# print(x > y)
+# print(x >= y)
+# print(x < y)
+# print(x <= y)
+# print(x != y)
 
-# Boolean Operations
+# # Boolean Operations
 condition_1 = x > y
 condition_2 = x < y
 
@@ -33,13 +33,5 @@ new_condition = condition_1 or condition_2
 print(f"new_condition is {new_condition}")
 
 cond3 = not condition_1
-print(f"condition3 = {cond3}")
+print(f"condition3 is {cond3}")
 
-whatIs = None
-print(whatIs == True)
-print(whatIs == False)
-
-if whatIs:
-	print("a")
-else:
-	print("b")

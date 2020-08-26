@@ -2,7 +2,6 @@ boss = "prayuth"
 vice_boss = "prawit"
 assistant = "pareena"
 
-
 print("The Military Authentication")
 username = input("Enter your name: ")
 

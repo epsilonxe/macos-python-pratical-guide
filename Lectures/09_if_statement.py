@@ -1,6 +1,5 @@
 boss = "prayuth"
 
-
 print("The Military Authentication")
 username = input("Enter your name: ")
 
