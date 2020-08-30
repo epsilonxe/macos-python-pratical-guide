@@ -6,19 +6,12 @@ def absolute(x):
 		abs_x = -x
 	
 	return abs_x
-'''
+
+
 print("Finding absolute value")
 input_number = float(input("Enter a number: "))
 
 abs_val = absolute(input_number)
 
 print(f"Absolute value of {input_number} is {abs_val}")
-'''
 
-
-def abc():
-	return {'name':'Tum', 'lastname': 'abc'}
-
-r = abc()
-r['name']
-print(r.get('Name', '-'), r.get('lastname', '-'))

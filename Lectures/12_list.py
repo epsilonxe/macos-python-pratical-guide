@@ -1,69 +1,95 @@
-# number_list = [3.14, 5, 56.50, -5.75]
+mylist = [3.14, 5, "Hello", -3]
 
-# print("The complete list is ")
-# print(number_list)
+print("The complete list is ")
+print(mylist)
+
+
+# # List Access
 
 # # print("Here are the members")
-# # print(number_list[0])
-# # print(number_list[1])
-# # print(number_list[2])
-# # print(number_list[3])
+# # print(mylist[0])
+# # print(mylist[1])
+# # print(mylist[2])
+# # print(mylist[3])
 
-# # print(f"The last member is {number_list[-1]}")
 
-# # print(f"Before the last member is {number_list[-2]}")
+# # 		---------------------------------------
+# # DATA	| 3.14	|	5	|	"Hello"	|	-3	|
+# #  		---------------------------------------
+# #      		^		^		   ^		 ^
+# #  			|		|		   |		 |
+# # INDEX		0		1		   2		 3		(FORWARD)
 
-# # print(f"The first member is {number_list[-4]}")
+# # INDEX		-4		-3		   -2		 -1		(BACKWARD)
+
+
+# # print(f"The last member is {mylist[-1]}")
+
+# # print(f"Before the last member is {mylist[-2]}")
+
+# # print(f"The first member is {mylist[-4]}")
+
+
+
 
 
 # # # Change member data
-# number_list[2] = 5555.55
-# print(f"Now the entire list is {number_list}")
+# # mylist[2] = 5555.55
+# # print(f"Now the entire list is {mylist}")
 
 
-# # # Number of members
-# n = len(number_list)
-# print(f"Number of members is {n}")
 
-# # # Add member
+# # # # Number of members
+# # n = len(mylist)
+# # print(f"Number of members is {n}")
+
+
+# # # # Add member
 # new_member = 1024
-# number_list.append(new_member)
-# print(f"Now the entire list is {number_list}")
+# mylist.append(new_member)
+# print(f"Now the entire list is {mylist}")
 
 # new_member = 2048
-# number_list.append(new_member)
-# print(f"Now the entire list is {number_list}")
+# mylist.append(new_member)
+# print(f"Now the entire list is {mylist}")
 
 # new_member = 4096
-# number_list.append(new_member)
-# print(f"Now the entire list is {number_list}")
-
-# # # Delete member
-# number_list.pop(1)
-# print(f"Now the entire list is {number_list}")
+# mylist.append(new_member)
+# print(f"Now the entire list is {mylist}")
 
 
-# # # Sublist
-# new_list = number_list[1:4] 
+
+
+# # # # Delete member
+# mylist.pop(1)
+# print(f"Now the entire list is {mylist}")
+
+
+
+# # # # Sublist
+# new_list = mylist[1:4] 
 # print(f"The new_list is {new_list}")
 
+
+
+
 # Operation
-a = [100, 200, 300]
-b = ["boo", "bee"]
-print(f"a is {a}")
-print(f"b is {b}")
+# a = [100, 200, 300]
+# b = ["boo", "bee"]
+# print(f"a is {a}")
+# print(f"b is {b}")
 
-c = a + b
-print(f"c is {c}")
+# c = a + b
+# print(f"c is {c}")
 
-d = b + a
-print(f"d is {d}")
+# d = b + a
+# print(f"d is {d}")
 
-e = a * 3
-print(f"e is {e}")
+# e = a * 3
+# print(f"e is {e}")
 
-# # Empty list
-x = []
-print(len(x))
+# # # Empty list
+# x = []
+# print(len(x))
 
 
